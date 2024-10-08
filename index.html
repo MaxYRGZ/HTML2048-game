@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula el archivo CSS -->
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <div class="title">2048</div>
+            <div class="scores">
+                <div class="score-box">
+                    <div class="score-title">SCORE</div>
+                    <div class="score" id="score">0</div>
+                </div>
+                <div class="score-box">
+                    <div class="score-title">BEST</div>
+                    <div class="score" id="best">0</div>
+                </div>
+            </div>
+        </div>
+        <button class="new-game" onclick="newGame()">New Game</button>
+        <div class="grid" id="grid"></div>
+        <div class="controls">
+            <button class="control-btn" onclick="undo()">↩️</button>
+            <button class="control-btn" onclick="shuffle()">🔀</button>
+            <button class="control-btn" onclick="showLeaderboard()">👑</button>
+            <button class="control-btn" onclick="showSettings()">⚙️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Vincula el archivo JavaScript -->
+</body>
+</html>

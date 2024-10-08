@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf8ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.game-container {
+    width: 400px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #776e65;
+}
+.scores {
+    display: flex;
+}
+.score-box {
+    background-color: #bbada0;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.score-title {
+    font-weight: bold;
+}
+.score {
+    font-size: 20px;
+}
+.new-game {
+    background-color: #8f7a66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.grid {
+    background-color: #bbada0;
+    border-radius: 6px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+.cell {
+    width: 80px;
+    height: 80px;
+    background-color: #cdc1b4;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #776e65;
+}
+.cell-2 {
+    background-color: #eee4da;
+}
+.cell-4 {
+    background-color: #ede0c8;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.control-btn {
+    background-color: #bbada0;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
